@@ -92,7 +92,7 @@
         <br>
     </body>
 
-    <script>if (/^\?i=\d+$/.test(window.location.search)) window.location.href = 'index.html';</script>
+    <script>let p=new URLSearchParams(location.search);if(p.has('i')&&/^\d+$/.test(p.get('i'))){p.delete('i');let u=location.pathname+(p.toString()?'?'+p.toString():'');history.replaceState(null,'',u);}</script>
     <script src="js/jszip.min.js"></script>
     <script src="js/rdd.js"></script>
 </html>
