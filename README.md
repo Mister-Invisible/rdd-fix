@@ -52,8 +52,8 @@ RDD can assemble plain resources directly from Roblox's [`setup`](https://setup.
 
 > * [JSZip](https://github.com/Stuk/jszip) (Used for `WindowsPlayer`/`WindowsStudio` file extraction/generation)
 > * <https://github.com/latte-soft/channel-tracker>
-> **🔧 Want to try my unofficial fix?**
-> 👉 [Test it here!](https://rdd.rf.gd/)
+> * 🔧 Want to try my unofficial fix?
+> * 👉 [Test it here!](https://rdd.rf.gd/)
 
 
 ## License
